@@ -80,3 +80,9 @@
 * Quando finalizamos uma funcionalidade nova, **enviamos o código ao repositório**, que é o código-fonte;
 * Esta ação é feita pelo `git push`;
 * Após está ação **o código do servidor será atualizado baseando-se no código local** enviado.
+
+## Recebendo as mudanças
+* É comum também ter que **sincronizar o local** com as mudanças do remoto;
+* Esta ação é feita pelo: `git pull`;
+* Após o comando serão **buscadas atualizações**, se encontradas elas **serão unidas ao código atual** existente na nossa máquina.
+* Para este comando funcionar é preciso que o repo remoto tenha arquivos que o local não possua, então para testar essa funcionalidade, crie um arquivo dentro do GitHub.
