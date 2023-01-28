@@ -99,3 +99,8 @@
 * O comando para deletar é: `git rm <arquivo>`
 * Após deletar um arquivo do git ele não terá mais suas atualizações consideradas pelo git;
 * Apenas quando for adicionado novamente pelo `git add`
+
+## Histórico de alteração
+* Podemos **acessar um log** de modificações feitas no projetos;
+* O comando para este recurso é: `git log`;
+* Você receberá uma informação dos **commits realizados** no projeto até então;
