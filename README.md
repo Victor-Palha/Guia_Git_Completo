@@ -91,4 +91,5 @@
 * O ato de baixar um repositório de um servidor remoto é chamado de **clonar repositório**;
 * Para esta ação utilizamos: `git clone <link do repo>`;
 * Passando a **referência** do repositório remoto;
+* A referência é dada pelo GitHub no botão __**Code**__ dentro do repositório;
 * Este comando é utilizado quando **entramos em um novo projeto**, por exemplo;
