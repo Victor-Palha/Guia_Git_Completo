@@ -93,3 +93,9 @@
 * Passando a **referência** do repositório remoto;
 * A referência é dada pelo GitHub no botão __**Code**__ dentro do repositório;
 * Este comando é utilizado quando **entramos em um novo projeto**, por exemplo;
+
+## Removendo arquivos do repositório
+* Os arquivos **podem ser deletados da monitoração** do git;
+* O comando para deletar é: `git rm <arquivo>`
+* Após deletar um arquivo do git ele não terá mais suas atualizações consideradas pelo git;
+* Apenas quando for adicionado novamente pelo `git add`
