@@ -75,3 +75,8 @@
 * É uma boa prática enviar **uma mensagem a cada commit**, com as alterações que foram feitas;
 * A mensagem pode ser adicionada com a flag `-m`
 * Exemplo: `git commit -a -m "Mensagem do commit"`
+
+## Enviando código ao repositório remoto
+* Quando finalizamos uma funcionalidade nova, **enviamos o código ao repositório**, que é o código-fonte;
+* Esta ação é feita pelo `git push`;
+* Após está ação **o código do servidor será atualizado baseando-se no código local** enviado.
