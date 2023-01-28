@@ -57,3 +57,21 @@
 * Aqui serão mapeadas todas as alterações do projeto;
 * Como: **arquivos não monitorados** e **arquivos modificados**;
 * Podemos também dizer que é a **diferença** do que já está enviado ao servidor ou salvo no projeto;
+
+## Adicionando arquivos ao projeto
+* Para adicionar arquivos novos a um projeto utilizamos: `git add`;
+* Podemos adicionar **um arquivo** específico como também **diversos de uma vez só**
+* Somente adicionando arquivos eles serão monitorados pelo git;
+* Ou seja, **se não adicionar ele não estará** no controle de versão;
+* É interessante utilizar este comando de tempos em tempos para não perder algo por descuido;
+### Adicionar arquivo específico:
+* `git add <nome do arquivo>`
+### Adicionar vários arquivos de uma só vez:
+* `git add .`
+
+## Salvando alterações do projeto
+* As alterações do projetos são realizadas por: `git commit`;
+* Podendo commitar **arquivos específicos** ou vários de uma vez com a flag `-a`;
+* É uma boa prática enviar **uma mensagem a cada commit**, com as alterações que foram feitas;
+* A mensagem pode ser adicionada com a flag `-m`
+* Exemplo: `git commit -a -m "Mensagem do commit"`
