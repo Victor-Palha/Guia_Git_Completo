@@ -86,3 +86,9 @@
 * Esta ação é feita pelo: `git pull`;
 * Após o comando serão **buscadas atualizações**, se encontradas elas **serão unidas ao código atual** existente na nossa máquina.
 * Para este comando funcionar é preciso que o repo remoto tenha arquivos que o local não possua, então para testar essa funcionalidade, crie um arquivo dentro do GitHub.
+
+## Clonando repositórios
+* O ato de baixar um repositório de um servidor remoto é chamado de **clonar repositório**;
+* Para esta ação utilizamos: `git clone <link do repo>`;
+* Passando a **referência** do repositório remoto;
+* Este comando é utilizado quando **entramos em um novo projeto**, por exemplo;
