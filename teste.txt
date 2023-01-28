@@ -1,1 +1,0 @@
-Arquivo criado apenas para tester comando: git rm
