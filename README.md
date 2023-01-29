@@ -106,7 +106,7 @@
 * Você receberá uma informação dos **commits realizados** no projeto até então;
 
 ## Renomeando arquivos
-* Com o comando `git mv` podemos renomear um arquivo;
+* Com o comando `git mv <Nome do arquivo> <diretorio/novo nome>` podemos renomear um arquivo;
 * O mesmo também pode ser **movido para outra pasta**;
 * E isso fará com que este novo arquivo **seja monitorado pelo git**;
 * O arquivo anterior é **excluído**;
