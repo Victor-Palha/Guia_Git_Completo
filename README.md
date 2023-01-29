@@ -177,3 +177,8 @@
 * A tag é diferente do stash, serve como um **checkpoint de um branch**;
 * É utilizada para demarcar estágios do desenvolvimento de algum recurso;
 * Para visualizar as tags podemos utilizar o comando: `git tag`;
+
+## Verificando e alterando tags
+* Podemos verificar uma tag com o comando: `git show <name>`;
+* Podemos trocar de tags com o comando: `git checkout <nome da tag>`;
+* Desta maneira podemos retroceder ou avançar em checkpoints de um branch;
