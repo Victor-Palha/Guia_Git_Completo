@@ -128,3 +128,10 @@
 * Geralmente é utilizada com a flag **--hard**;
 * Todas as alterações **commitadas** e **também as pendentes** serão excluídas.
 * Exemplo: `git reset --flag branch`, `git reset --hard origin/main`
+
+# Branches
+## O que é um branch?
+* Branch é a forma que o git **separa as versões dos projetos**;
+* Quando um projeto é criado ele inicia na branch **main**, estamos trabalhando nela até esse ponto;
+* Geralmente cada nova feature de um projeto **fica em um branch separado**;
+* Após a finalização das alterações os **branchs são unidos** (_merge_)para ter o código-fonte final; 
