@@ -167,3 +167,7 @@
 * E também podemos recuperar a stash com o comando: `git stash apply <número>`;
 * Podemos também ver as alterações da stash com o comando: `git stash show -p <number>`
 * Desta maneira podemos continuar de onde paramos com os arquivos adicionados a stash.
+
+# Removendo a stash
+* Para limpar totalmente as stash de um branch podemos utilizar o comando: `git stash clear`;
+* Caso seja necessário delletar uma stash específica podemos utilizar: `git stash drop <number>`;
