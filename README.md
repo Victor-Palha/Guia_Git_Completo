@@ -161,3 +161,8 @@
 * Podemos salvar as modificações atuais **para prosseguir com uma outra abordegem de solução** e não perder o código;
 * O comando para esta ação é o: `git stash`;
 * Após o comando o branch será resetado para a sua versão de acordo com o repositório;
+
+# Recuperando stash
+* Podemos verificar as stashs criadas pelo comando: `git stash list`;
+* E também podemos recuperar a stash com o comando: `git stash <nome>`;
+* Desta maneira podemos continuar de onde paramos com os arquivos adicionados a stash.
