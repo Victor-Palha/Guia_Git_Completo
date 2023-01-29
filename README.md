@@ -156,3 +156,8 @@
 * O código de dois branches distintos pode ser unido pelo comando: `git merge <nome do branch>`;
 * Outro comando para a lista dos **mais utilizados**;
 * Normalmente é por meio dele que recebemos as atualizações de outros devs;
+
+## Stash
+* Podemos salvar as modificações atuais **para prosseguir com uma outra abordegem de solução** e não perder o código;
+* O comando para esta ação é o: `git stash`;
+* Após o comando o branch será resetado para a sua versão de acordo com o repositório;
