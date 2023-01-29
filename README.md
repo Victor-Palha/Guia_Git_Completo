@@ -145,3 +145,9 @@
 * Podemos deletar um branch com a flag `-d` ou `--delete`;
 * **Não é comum deletar um branch**, normalmente guardamos o histórico do trabalho;
 * Geralmente se usa o delete quando o branch foi criado errado;
+
+## Mudando de branch
+* Podemos mudar para outro branch utilizando o comando: `git checkout <nome>`;
+* Se quiseremos criar um branch e mudar direto para ele, utilizamos o comando: `git checkout -b <nome>`;
+* Este comando também é utilizado paradispensar mudanças de um arquivo;
+* Alterando o branch podemos levar alterações que não foram commitadas juntos, **tome cuidado!**
