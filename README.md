@@ -162,12 +162,18 @@
 * O comando para esta ação é o: `git stash`;
 * Após o comando o branch será resetado para a sua versão de acordo com o repositório;
 
-# Recuperando stash
+## Recuperando stash
 * Podemos verificar as stashs criadas pelo comando: `git stash list`;
 * E também podemos recuperar a stash com o comando: `git stash apply <número>`;
 * Podemos também ver as alterações da stash com o comando: `git stash show -p <number>`
 * Desta maneira podemos continuar de onde paramos com os arquivos adicionados a stash.
 
-# Removendo a stash
+## Removendo a stash
 * Para limpar totalmente as stash de um branch podemos utilizar o comando: `git stash clear`;
 * Caso seja necessário delletar uma stash específica podemos utilizar: `git stash drop <number>`;
+
+## Utilizando tags
+* Podemos criar tags nos branches por meio do comando: `git tag -a <nome> -m "<msg>"`;
+* A tag é diferente do stash, serve como um **checkpoint de um branch**;
+* É utilizada para demarcar estágios do desenvolvimento de algum recurso;
+* Para visualizar as tags podemos utilizar o comando: `git tag`;
