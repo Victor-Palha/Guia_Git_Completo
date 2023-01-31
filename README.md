@@ -201,3 +201,8 @@
 * O comando `git pull` serve para recebermos atualizações do repositório remoto;
 * Cada branch pode ser atualizado com o git pull;
 * Utilizamos para atualizar o **main do repo** como também quando trabalhamos em conjunto em uma branch e queremos receber as atualizações de um dev;
+
+## Enviando alterações
+* O comando `git push` faz o inverso do pull, ele envia todas as alterações para o repo remoto;
+* Serve também para **enviar as atualizações de um branch específico** para outro dev;
+* Ou quando terminamos uma tarefa e precisamos enviar ao repositório;
