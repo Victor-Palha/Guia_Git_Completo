@@ -182,8 +182,17 @@
 * Podemos verificar uma tag com o comando: `git show <name>`;
 * Podemos trocar de tags com o comando: `git checkout <nome da tag>`;
 * Desta maneira podemos retroceder ou avançar em checkpoints de um branch;
+* Para remover uma tag podemos usar o comando: `git tag -d <nome da tag>`;
 
 ## Enviando e compartilhando tags
 * As tags podem ser **enviadas para o repositório de código**, sendo compartilhada entre os devs;
 * O comando é: `git push origin <nome>`;
 * Ou se você quiser enviar mais tags: `git push origin --tags`;
+
+# Compartilhamento e atualização
+
+## Encontrando branches
+* Branches novos são criados a todo tempo e o **seu git pode não estar mapeando eles**;
+* Com o comando `git fetch -a` você é atualizado de todos os branchs e tags que ainda não estão reconhecidos por você;
+* Este comando é útil para utilizar o branch de algum outro dev do time, por exemplo;
+* O branch pode não aparecer direto quando utilizar o comando `git branch`, então é preciso mudar para ela usando o `git checkout <nome da branch>`;
