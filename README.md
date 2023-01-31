@@ -207,7 +207,7 @@
 * Serve também para **enviar as atualizações de um branch específico** para outro dev;
 * Ou quando terminamos uma tarefa e precisamos enviar ao repositório;
 
-## Utilizando o remoto
+## Utilizando o remote
 * Com o `git remote` podemos fazer algumas ações como: adicionar um repo para trackear ou remover;
 * Quando criamos um repo remoto, adicionamos ele ao git com `git remote add origin <link>`;
 * Para remover um repo remoto podemos utilizar o comando: `git remote rm origin`;
