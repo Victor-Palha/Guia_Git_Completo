@@ -217,3 +217,8 @@
 * Podemos adicionar uma dependência ao nosso projeto atual, porém mantendo suas estruturas separadas;
 * Para adicionar o submódulo utilizamos o comando: `git submodule add <repositório> <\diretorio>`;
 * Para verificar os submódulos o comando é `git submodule`;
+
+## Atualizando submódulo
+* Para atualizar um submódulo primeiro devemos **commitar as mudanças**;
+* E para enviar para o repo do submódulo utilizamos `git push --recurse-submodule=on-demand`;
+* Este fluxo fará a atualização apenas do submódulo;
