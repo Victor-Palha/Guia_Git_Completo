@@ -196,3 +196,8 @@
 * Com o comando `git fetch -a` você é atualizado de todos os branchs e tags que ainda não estão reconhecidos por você;
 * Este comando é útil para utilizar o branch de algum outro dev do time, por exemplo;
 * O branch pode não aparecer direto quando utilizar o comando `git branch`, então é preciso mudar para ela usando o `git checkout <nome da branch>`;
+
+## Recebendo alterações
+* O comando `git pull` serve para recebermos atualizações do repositório remoto;
+* Cada branch pode ser atualizado com o git pull;
+* Utilizamos para atualizar o **main do repo** como também quando trabalhamos em conjunto em uma branch e queremos receber as atualizações de um dev;
