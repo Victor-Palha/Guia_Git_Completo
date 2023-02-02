@@ -213,7 +213,7 @@
 * Para remover um repo remoto podemos utilizar o comando: `git remote rm origin`;
 
 ## Trabalhando com submódulos
-* Submódulo é a maneira que temos de possuir **doi ou mais projetos em um só repositório**;
+* Submódulo é a maneira que temos de possuir **dois ou mais projetos em um só repositório**;
 * Podemos adicionar uma dependência ao nosso projeto atual, porém mantendo suas estruturas separadas;
 * Para adicionar o submódulo utilizamos o comando: `git submodule add <repositório> <\diretorio>`;
 * Para verificar os submódulos o comando é `git submodule`;
@@ -222,3 +222,11 @@
 * Para atualizar um submódulo primeiro devemos **commitar as mudanças**;
 * E para enviar para o repo do submódulo utilizamos `git push --recurse-submodule=on-demand`;
 * Este fluxo fará a atualização apenas do submódulo;
+
+# Análises e inspenção
+
+## Exibindo informações
+* O comando `git show` nos dá diversas informações úteis;
+* Ele nos dá as informações do branch atual e também **seus commits**;
+* As **modificações de arquivos entre cada commit também são exibidas**;
+* Podemos exibir as informações de tags também como: `git show <tag>`;
