@@ -254,3 +254,8 @@
 * Ele identifica arquivos que **não são mais necessários** e os exclui;
 * Isso fará com que o repositório seja otimizado em questões de **performance**;
 
+## Checando integridade de arquivos
+* O comando `git fsck` é uma abreviação de File System check;
+* Esta instrução verifica a integridade de arquivos e sua conectividade;
+* Verificando assim possíveis **corrupções em arquivos**;
+* **Comando de rotina**, utilizado para ver se está tudo certo com nossos arquivos;
