@@ -248,3 +248,9 @@
 * A flag `-f` pode ser usada para forçar a limpeza caso dê algum erro;
 * Ou seja, todos que vocês **não utilizou git add**;
 * Utilizado para arquivos que são **gerados automaticamente**, por exemplo, e atrapalham a vizualização do que é realmente importante;
+
+## Otimizando o repositório
+* O comando `git gc` é uma abreviação para **garbage collector**;
+* Ele identifica arquivos que **não são mais necessários** e os exclui;
+* Isso fará com que o repositório seja otimizado em questões de **performance**;
+
