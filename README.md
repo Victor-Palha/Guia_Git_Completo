@@ -265,3 +265,9 @@
 * Já o `git log`, que vimos anteriormente, apenas armazena os commits de um branch;
 * Os **reflogs ficam salvos até expirar**, o tempo de expiração padrão é de 30 dias;
 * Podemos usar o `git reflog` para pegar a hash das alterações e navegar com o comando `git reset --hard <hash>`
+
+## Transformando o repo para arquivo
+* Com o comnado `git archive` podemos transformar o repo um arquivo compactado, por exemplo;
+* O comando é `git archive --format <tipo> --output <nome.tipo> <branch>`;
+* exemplo:`git archive --format zip --output main_files.zip main`;
+* E então a branch main vai estar zipada no arquivo **main_files.zip**;
