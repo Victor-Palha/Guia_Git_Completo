@@ -280,3 +280,11 @@
 * Review do **Pull Request**;
 * Melhoria dos log em `git log`;
 * Manutenção do projeto (voltar código, por exemplo);
+
+## Branches com commits ruins
+* Há uma solução chamada **private branches**;
+* Onde criamos branches que **não serão compartilhados no repositório**, então podemos colocar qualquer commit;
+* Ao fim da solução do problema podemos fazer um **rebase**, reestruturar os commits;
+* O comando será: `git rebase <branch atual> <branch privado> -i`;
+* Escolhemos os branches para excluir (`squash`) e renomear com (`reword`);
+* Para salvar as alterações no terminal, usamos o comando `:x!` para salvar o arquivo;
