@@ -271,3 +271,12 @@
 * O comando é `git archive --format <tipo> --output <nome.tipo> <branch>`;
 * exemplo:`git archive --format zip --output main_files.zip main`;
 * E então a branch main vai estar zipada no arquivo **main_files.zip**;
+
+# Melhorando os commits do projeto
+
+## A importância do commit
+* **O problema**: commits sem sentido atrapalham o projeto;
+* **Precisamos padronizar os commits**, para que o projeto cresça de forma saudável também no versionamento, isso ajuda em:
+* Review do **Pull Request**;
+* Melhoria dos log em `git log`;
+* Manutenção do projeto (voltar código, por exemplo);
