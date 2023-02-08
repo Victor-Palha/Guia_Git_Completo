@@ -288,3 +288,10 @@
 * O comando será: `git rebase <branch atual> <branch privado> -i`;
 * Escolhemos os branches para excluir (`squash`) e renomear com (`reword`);
 * Para salvar as alterações no terminal, usamos o comando `:x!` para salvar o arquivo;
+
+## Boas mensagens de commit
+* Separar **assunto** do corpo da mensagem;
+* Assunto com no **máximo 50 caracteres**;
+* Assunto com **Letra inicial maiúscula**;
+* Corpo com no **máximo 72 caracteres**;
+* Explicar o **por que e como** do commit, e não como o código foi escrito;
