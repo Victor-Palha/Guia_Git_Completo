@@ -359,10 +359,10 @@
 * Podemos inserir **código** no Markdown também;
 * A sintaxe é: ` ``` código ``` `
 * exemplo:
-    * ```ts
-        function soma(a:number, b:number){
-            return a+b
-        }
-    ```
+```ts
+    function soma(a:number, b:number){
+        return a+b
+    }
+```
 * Podemos colocar a sigla da linguagem que queremos usar logo após as aspas;
 * ` ```js código em JS``` `
