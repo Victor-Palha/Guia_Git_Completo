@@ -295,3 +295,15 @@
 * Assunto com **Letra inicial maiúscula**;
 * Corpo com no **máximo 72 caracteres**;
 * Explicar o **por que e como** do commit, e não como o código foi escrito;
+
+# Markdown
+## Cabeçalhos
+* Os **cabeçalhos em markdown** são determinados pelo símbolo `#`;
+* Cabeçalhos são os famosos títulos ou **headings** do HTML;
+* `# => h1, ## => h2, ### => h3` e assim por diante
+
+## Ênfase
+* Temos símbolos que podem dar **ênfase ao texto**;
+* Para escrever em **negrito**: `**texto** ou __texto__`;
+* Para escrever em itálico: `*texto* ou _texto_`;
+* **Combinando** os dois: `_um **texto** combinado_`;
