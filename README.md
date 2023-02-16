@@ -1,4 +1,7 @@
 # Git - Todos os conceitos
+
+![logo git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png)
+
 ## O que é controle de versão?
 * Uma técnica que ajuda a **gerenciar o código-fonte** de uma aplicação;
 * Registrando **todas as modificações** de código, podendo também reverter as mesmas;
@@ -297,6 +300,9 @@
 * Explicar o **por que e como** do commit, e não como o código foi escrito;
 
 # Markdown
+
+![logo markdown](https://www.kamailio.org/w/wp-content/uploads/2022/05/markdown-logo.jpeg)
+
 ### Cabeçalhos
 * Os **cabeçalhos em markdown** são determinados pelo símbolo `#`;
 * Cabeçalhos são os famosos títulos ou **headings** do HTML;
@@ -338,4 +344,3 @@
 * É possível **inserir imagens** em markdown também;
 * Veja a sintaxe: `![Texto alternativo](Link/caminho da imagem)`;
 * A imagem pode **estar no próprio repo** ou **ser externa**.
-![logo git](https://git-scm.com/images/logos/1color-darkbg@2x.png)
