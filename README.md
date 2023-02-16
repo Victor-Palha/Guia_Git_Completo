@@ -374,4 +374,7 @@
 * Esta sintaxe é do markdown **especial do GitHub**;
 * Exemplo:
     * - [x] Terminar de escrever sessão do git;
-    * - [ ] Terminar de escrever sessão de Markdown;
+    * - [x] Terminar de escrever sessão de Markdown;
+
+# Conclusão
+Finalmente o repo chegou ao fim, espero que quem tenha lido ele tenha aprendido alguma coisa, da mesma forma que eu aprendi bastante escrevendo. Deixando claro que esse repo não tem nenhum fim lucrativo somente informativo! Eu escrevi toda essa documentação baseada no curso do professor [Matheus battisti](https://www.udemy.com/user/matheus-battisti/) de Git e GitHub, eu recomendo fortemente quem leu essa documentação dar uma olhada nesse curso para expandir seus conhecimentos! [Curso de Git e gitHub](https://www.udemy.com/course/git-e-github-do-basico-ao-avancado-c-gist-e-github-pages/)!
