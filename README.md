@@ -42,16 +42,16 @@
 * E esta sequência que parece ser complexa é facilmente executada **por poucos comandos**;
 * Vale lembrar que só fazemos **uma vez por projeto** este fluxo;
 #### 10 passos para enviar o arquivo para o GitHub: 
-1. - Dentro do GitHub, vá na aba **'Repositories'** e clique na opção **'New'**;
-2. - Coloque o nome do repositório na opção **'Repository name'** clique **'Create repository'**;
-3. - Depois de criar o repositório o GitHub vai dar alguns passos para serem seguidos;
-4. - Escolha a pasta no seu computador que você quer criar o repositório e no terminal inicie o repo com o comando: `git init`;
-5. - Crie um arquivo dentro da pasta que você criou para ser subido para o seu repo no GitHub;
-6. - Agora que criou o arquivo, adcione dele utilizado o comando: `git add <nome do arquivo criado>`;
-7. - Para enviar os arquivos adicionados, utilize o comando: `git commit -m "Hello world Git"`. O **-m** é uma flag para adicionar uma descrição simples ao commit do arquivo;
-8. - Agora precisamos criar uma **Branch** que é uma ramificação do projeto e vamos chamar ela de **main**: `git branch -M main`;
-9. - Agora vamos copiar o código dado pelo GitHub para sincronizar com o repo do GitHub, o comando é gerado pelo GitHub e deve ser parecido com este: `git remote add origin https://github.com/Seu-Usuário/Nome-do-repositório.git`;
-* 10 - Agora que estamos sincronizados, vamos enviar nossos arquivos que já foram **commitados** para o GitHub: `git push -u origin main`. Se der algum erro, tente mudar o link de SSH para HTTP e remova a origin adicionada anteriormente com o comando: `git remote rm origin` e para vizualizar se foi excluida, utilize: `git remote -v`;
+1. Dentro do GitHub, vá na aba **'Repositories'** e clique na opção **'New'**;
+2. Coloque o nome do repositório na opção **'Repository name'** clique **'Create repository'**;
+3. Depois de criar o repositório o GitHub vai dar alguns passos para serem seguidos;
+4. Escolha a pasta no seu computador que você quer criar o repositório e no terminal inicie o repo com o comando: `git init`;
+5. Crie um arquivo dentro da pasta que você criou para ser subido para o seu repo no GitHub;
+6. Agora que criou o arquivo, adcione dele utilizado o comando: `git add <nome do arquivo criado>`;
+7. Para enviar os arquivos adicionados, utilize o comando: `git commit -m "Hello world Git"`. O **-m** é uma flag para adicionar uma descrição simples ao commit do arquivo;
+8. Agora precisamos criar uma **Branch** que é uma ramificação do projeto e vamos chamar ela de **main**: `git branch -M main`;
+9. Agora vamos copiar o código dado pelo GitHub para sincronizar com o repo do GitHub, o comando é gerado pelo GitHub e deve ser parecido com este: `git remote add origin https://github.com/Seu-Usuário/Nome-do-repositório.git`;
+10. Agora que estamos sincronizados, vamos enviar nossos arquivos que já foram **commitados** para o GitHub: `git push -u origin main`. Se der algum erro, tente mudar o link de SSH para HTTP e remova a origin adicionada anteriormente com o comando: `git remote rm origin` e para vizualizar se foi excluida, utilize: `git remote -v`;
 * OBS: Se você estiver tento problema após o `git push -u origin main`, pois não aceita sua senha na hora do push, leia esse artigo sobre as exigências do git e geração de Tokens: [Artigo](https://www.alura.com.br/artigos/nova-exigencia-do-git-de-autenticacao-por-token-o-que-e-o-que-devo-fazer).
 
 ### Verificando mudanças do projeto
