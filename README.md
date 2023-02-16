@@ -307,3 +307,22 @@
 * Para escrever em **negrito**: `**texto** ou __texto__`;
 * Para escrever em itálico: `*texto* ou _texto_`;
 * **Combinando** os dois: `_um **texto** combinado_`;
+
+### Listas com Markdown
+* Temos as listas __ordenadas__ e __não ordenadas__ em markdown;
+* As listas não ordenadas começam os itens com: `* Item`;
+* Exemplo:
+```js
+* algum item;
+* Outro item;
+* algum outro item.
+```
+* As listas ordenadas começam com: `1. Item`;
+* Exemplo:
+```js
+1. algum item;
+2. Outro item;
+3. algum outro item.
+```
+1. teste
+2. teste 2
