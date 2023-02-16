@@ -366,3 +366,12 @@
 ```
 * Podemos colocar a sigla da linguagem que queremos usar logo após as aspas;
 * ` ```js código em JS``` `
+
+### Task List - Exclusivo do GitHub
+* Podemos inserir uma **lista de tarefas** pelo Markdown;
+* A sintaxe para tarefas concluídas: `- [x] CSS do rodapé`;
+* Para não concluídas: `- [] CSS da página de contatos`;
+* Esta sintaxe é do markdown **especial do GitHub**;
+* Exemplo:
+    * - [x] Terminar de escrever sessão do git;
+    * - [] Terminar de escrever sessão de Markdown;
