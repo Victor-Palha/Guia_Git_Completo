@@ -374,4 +374,4 @@
 * Esta sintaxe é do markdown **especial do GitHub**;
 * Exemplo:
     * - [x] Terminar de escrever sessão do git;
-    * - [] Terminar de escrever sessão de Markdown;
+    * - [ ] Terminar de escrever sessão de Markdown;
