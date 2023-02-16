@@ -344,3 +344,13 @@
 * É possível **inserir imagens** em markdown também;
 * Veja a sintaxe: `![Texto alternativo](Link/caminho da imagem)`;
 * A imagem pode **estar no próprio repo** ou **ser externa**.
+
+### Inserur Links
+* Com o markdown podemos **inserir links** de forma fácil;
+* A sintexa é bastante parecida com a de **imagens**, com a diferença que não tem a `!`;
+    * `[texto do link](www.link.com)`
+* Podemos transformar uma imagem em um link também;
+* A sintaxe é: `[![texto alternativo](link/caminho da imagem)](www.link.com)`;
+    * Colocamos a tag da imagem dentro de onde é o texto do link, apenas isso!
+* Exemplo:
+[![Minha foto - Ash](https://media.licdn.com/dms/image/C4E03AQEE-pTGVS6YLg/profile-displayphoto-shrink_200_200/0/1625778277950?e=1681948800&v=beta&t=3548RtDL5xuuZUGzWzX_f9buZo5F7UNHhEoCmfZxs1Y)](https://www.linkedin.com/in/jo%C3%A3o-victor-ferreira-palha-b67736216/)
