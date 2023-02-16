@@ -324,5 +324,13 @@
 2. Outro item;
 3. algum outro item.
 ```
-1. teste
-2. teste 2
+* Podemos também criar listas mistas, por exemplo:
+```js
+* algum item;
+    1. teste;
+    2. teste 2
+    3. teste 3
+* Outro item;
+* algum outro item.
+```
+
