@@ -334,3 +334,8 @@
 * algum outro item.
 ```
 
+### Inserir Imagens
+* É possível **inserir imagens** em markdown também;
+* Veja a sintaxe: `![Texto alternativo](Link/caminho da imagem)`;
+* A imagem pode **estar no próprio repo** ou **ser externa**.
+![logo git](https://git-scm.com/images/logos/1color-darkbg@2x.png)
